@@ -43,6 +43,10 @@
     flex-direction: row;
     text-align: center;
   }
+  .guide-container .nav-header .link-icon img {
+    height: 30px;
+    width: 30px;
+  }
   .guide-container .nav-header .link-icon .icon-login {
     border: 1px solid #ccc;
     width: 33%;
@@ -89,7 +93,12 @@
     flex-direction: row;
     text-align: center;
   }
+  .guide-container .nav-header .link-icon img {
+    height: 50px;
+    width: 50px;
+  }
   .guide-container .nav-header .link-icon .icon-login {
+    flex-direction: column;
     border: 1px solid #ccc;
     width: 33%;
   }
