@@ -1,0 +1,15 @@
+@mixin small {
+    @media (min-width: 0px){
+        @content;
+    }
+}
+
+@mixin large {
+    @media (min-width: 1000px){
+        @content;
+    }
+}
+
+// body{
+//     background-color: #d0e3f4;
+// }
