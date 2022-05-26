@@ -30,7 +30,7 @@ $(function(){
         $.ajax({
             url: "/",
             type: "POST",
-            dataType: 'json',
+            // dataType: 'json',
             data: {'ACC':account,'PWD':pwd},
             success: function(data) {
                 if(data['res']=='success'){
@@ -101,9 +101,10 @@ $(function(){
         }
         
         $.ajax({
-            url: "/test.jsp",
+            // ex:/專案名/資料夾名/檔案名
+            url: "/",
             type: "POST",
-            dataType: 'json',
+            // dataType: 'json',
             data: formData,
             // 告訴jQuery不要去處理髮送的資料
             processData : false, 
