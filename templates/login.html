@@ -31,6 +31,32 @@
         </style>
     </head>
 <body>
+    <header>
+        <div class="guide-container">
+            <nav class="nav-header">
+                <div class="home" style="border:3px solid #ccc;">
+                    <a href="">首頁</a>
+                </div>
+                <div class="key-word-search">
+                    <form method="GET" action="">
+                        <input type="search" name="" placeholder="請輸入關鍵字">
+                        <button><img src="">查詢</button>
+                    </form>
+                </div>
+                <div class="link-icon">
+                    <div class="icon-login">
+                        <a  href=""><img src="../assets/img/icon/member.png"></a>
+                    </div>
+                    <div class="icon-contact">
+                        <a  href=""><img src="../assets/img/icon/contact.png"></a>
+                    </div>
+                    <div class="icon-car">
+                        <a  href=""><img src="../assets/img/icon/car.png"></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
     <main class="main">
         <div class="content">
             <div id="loading" style="display: none;">
@@ -50,37 +76,54 @@
                     </div>
                     <div>
                         <button id="login">登入</button>
-                    </div>
-                    <div>
                         <button id="req-register">註冊</button>
                     </div>
                 </div>
-
                 <div id="register-container" class="login-container" style="display:none;">
-                    <div>
-                        <input type="text" id="usrname" placeholder="姓名" />
-                    </div>
-                    <div>
-                        <input type="text" id="account" placeholder="帳號"  onkeyup="value=value.replace(/[^\w=@#\.\/\*]/ig,'')" />
-                        @ <select id="mail">
-                            <option value="gmail.com">gmail.com</option>
-                            <option value="yahoo.com">yahoo.com</option>
-                            <option value="outlook.com">outlook.com</option>
-                        </select>
-                    </div>
-                    <div>
-                        <input type="password" id="pwd" placeholder="密碼" />
-                    </div>
-                    <div>
-                        <button id="register">註冊</button>
-                    </div>
+                    <!-- <form id="register-form" > -->
+                        <div>
+                            <input type="text" id="username" placeholder="姓名" required/>
+                            <select id="sex" >
+                                <option value="male">男</option>
+                                <option value="female">女</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="text" id="phone" placeholder="手機號碼" maxlength="10" onkeyup="value=value.replace(/[^\d]/g,'') " required/>
+                            <label id="phone-tip" style="color:red;"></label>
+                        </div>
+                        <div>
+                            <input type="date" id="birth" placeholder="生日" required/>
+                        </div>
+                        <div>
+                            <input type="text" id="reg-account" placeholder="帳號"  onkeyup="value=value.replace(/[^\w=@#\.\/\*]/ig,'')" required/>
+                            @ <select id="reg-mail">
+                                <option value="gmail.com">gmail.com</option>
+                                <option value="yahoo.com">yahoo.com</option>
+                                <option value="outlook.com">outlook.com</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="password" id="reg-pwd" placeholder="密碼" required/>
+                            <label id="pwd-tip" style="color:red;"></label>
+                        </div>
+                        <div>
+                            <input type="password" id="check-pwd" placeholder="確認密碼" required/>
+                            <label id="check-pwd-tip" style="color:red;"></label>
+                        </div>
+                        <div>
+                            <button id="register">註冊</button>
+                        </div>
+                    <!-- </form> -->
                     <div>
                         <button id="req-login">登入</button>
                     </div>
                 </div>
-
-            </div>
         </div>
     </main>
+    <footer class="footer">
+        <span class="copyright">&copy;</span>
+
+</footer>
 </body>
 </html>

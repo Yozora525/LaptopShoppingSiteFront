@@ -1,10 +1,10 @@
 html, body {
   height: 100%;
   margin: 0;
+  background-color: #d0e3f4;
 }
 
 .main {
-  background-color: #d0e3f4;
   min-height: 100%;
 }
 @media (min-width: 0px) {

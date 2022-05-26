@@ -13,10 +13,11 @@
 html, body{
     height: 100%;
     margin: 0;
+    background-color: #d0e3f4;
 }
 
 .main{
-    background-color: #d0e3f4;
+    // background-color: #d0e3f4;
     min-height: 100%;
     @include small{
         padding-bottom: 70px;
