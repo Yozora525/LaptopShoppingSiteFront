@@ -1,37 +1,43 @@
 
 $(function(){
-    $('#req-register').on('click', function(e){
+    $('#req-register').on('click', function(event){
         $('#register-container').show();
         $('#login-container').hide();
     });
 
-    $('#req-login').on('click', function(e){
-        $('#register-container').hide();
+    $('#req-login').on('click', function(event){
         $('#login-container').show();
+        $('#register-container').hide();
     });
 
-    $('#login').on('click', function(e){
-        let acc = $('#account').val();
-        let mail = $('#mail').find('option:selected').val();
+    $('#login').on('click', function(event){
+        let formData = new FormData();
+        let acc = $('#acc').val();
         let pwd = $('#pwd').val();
-        let account = acc + '@' + mail;
 
         if(acc.length == 0){
-            alert('請輸入帳號');
+            $('#login-acc-tip').html('請輸入帳號');
             return;
+        }else{
+            $('#login-acc-tip').html('');
+            formData.append('acc', acc);
         }
 
         if(pwd.length == 0){
-            alert('請輸入密碼');
+            $('#login-pwd-tip').html('請輸入密碼');
             return;
+        }else{
+            $('#login-pwd-tip').html('');
+            formData.append('pwd', pwd);
         }
 
 
         $.ajax({
+            // ex:/專案名/資料夾名/檔案名
             url: "/",
             type: "POST",
             // dataType: 'json',
-            data: {'ACC':account,'PWD':pwd},
+            data: formData,
             success: function(data) {
                 if(data['res']=='success'){
                     window.location.replace('LaptopShoppingSiteFront/templates/index.html'); //跳轉頁面
@@ -49,56 +55,41 @@ $(function(){
 
     $('#register').on('click',function(event){
         let formData = new FormData();
-        let user = $('#username').val();
-        let sex = $('#sex').val();
-        let phone = $('#phone').val();
-        let birth = $('#birth').val();
-        let acc = $('#reg-account').val();
-        let mail = $('#reg-mail').find('option:selected').val();
+        let acc = $('#reg-acc').val();
         let pwd = $('#reg-pwd').val();
-        let account = acc + '@' + mail;
-
-        if(user.length == 0) {
-            alert('請輸入姓名');
-            return;
-        }
-        else{
-            formData.append('user', user);
-        }
-
-        formData.append('sex', sex);
-
-        if(phone.length == 0) {
-            alert('請輸入手機號碼');
-            return;
-        }
-        else{
-            formData.append('phone', phone);
-        }
-
-        if(birth.length == 0) {
-            alert('請填寫生日');
-            return;
-        }
-        else{
-            formData.append('birth', birth);
-        }
+        let reg = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,16}$/;
+        let check_pwd = $('#check-pwd').val();
 
         if(acc.length == 0) {
-            alert('請輸入電子信箱');
+            $('#acc-tip').html('請輸入電子信箱');
             return;
-        }
-        else{
-            formData.append('acc', account);
+        }else if(acc.indexOf('@') == -1){
+            $('#acc-tip').html('電子信箱格式不正確');
+            return
+        }else{
+            $('#acc-tip').html('');
+            formData.append('acc', acc);
         }
 
-        if(pwd.length == 0) {
-            alert('請輸入密碼');
+        if (reg.test(pwd)) {
+            $('#pwd-tip').html('');
+        }else{
+            $('#pwd-tip').html('密碼長度須為8-16，大小寫英數混合');
             return;
         }
-        else{
+        
+        if(pwd != check_pwd){
+            $('#check-pwd-tip').html('兩次密碼輸入不一致');
+            return;
+        }else if(pwd.length == 0) {
+            $('#pwd-tip').html('請輸入密碼');
+            return;
+        }else{
+            $('#pwd-tip').html('');
+            $('#check-pwd-tip').html('');
             formData.append('pwd', pwd);
         }
+        
         
         $.ajax({
             // ex:/專案名/資料夾名/檔案名
@@ -129,35 +120,35 @@ $(function(){
         });
     });
 
-    $('#phone').on('keyup', function(e){
-        let phone = $('#phone').val();
 
-        if(phone.slice(0, 2) != "09"){
-            $('#phone-tip').html('手機號碼格式錯誤！');
-        }else if(phone.length != 10){
-            $('#phone-tip').html('手機號碼應為10碼！');
-        }else{
-            $('#phone-tip').html('');
-        }
-    });
+    $('#reg-pwd').on('keyup', function(event){
+        let pwd = $(this).val();
+        let reg = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,16}$/;
 
-    $('#reg-pwd').on('keyup', function(e){
-        let pwd = $('#reg-pwd').val();
-        if(pwd.length < 8){
-            $('#pwd-tip').html('密碼至少為8字元');
-        }else{
+        if (reg.test(pwd)) {
             $('#pwd-tip').html('');
+        }else{
+            $('#pwd-tip').html('密碼長度須為8-16，大小寫英數混合');
         }
     });
 
-    $('#check-pwd').on('keyup', function(e){
+    $('#check-pwd').on('keyup', function(event){
         let pwd = $('#reg-pwd').val();
-        let check_pwd = $('#check-pwd').val();
+        let check_pwd = $(this).val();
 
         if(pwd != check_pwd){
-            $('#check-pwd-tip').html('兩次輸入密碼不一樣');
+            $('#check-pwd-tip').html('兩次密碼輸入不一致');
         }else{
             $('#check-pwd-tip').html('');
+        }
+    });
+
+    $('#reg-acc').on('keyup', function(event){
+        let acc = $(this).val();
+        if(acc.indexOf('@') == -1){
+            $('#acc-tip').html('信箱格式不正確');
+        }else{
+            $('#acc-tip').html('');
         }
     });
 
