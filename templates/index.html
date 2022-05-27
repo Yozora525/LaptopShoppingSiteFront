@@ -21,9 +21,7 @@
     <script src="../assets/js/lib/blockUI/jquery.blockUI.js"></script>
     <script src="../assets/js/loading.js"></script>
     <!-- 引入css -->
-    <link rel="stylesheet" href="../assets/sass/header.css" />
-    <link rel="stylesheet" href="../assets/sass/main.css" />
-    <link rel="stylesheet" href="../assets/sass/footer.css" />
+    <link rel="stylesheet" href="../assets/sass/common.css" />
     <style>
         @import url("../assets/sass/product.css");
     </style>
@@ -62,13 +60,24 @@
             </div>
             <!-- 輪播套件 -->
             <div class="slick-container" style="width:100%;">
-                <div class="slick" style="margin-left:5%;margin-right:5%">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
+                <div class="content_format">
+                    <div class="slick">
+                        <!-- 要輪播的內容 -->
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                    </div>
                 </div>
             </div>
             
+            <div class="content_format">
+                品牌：
+                <select id="brand">
+                    <option value=""></option>
+                </select>
+
+            </div>
+
             <!-- 產品列表 -->
             <div class="product">
                 <div class="list">
