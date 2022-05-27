@@ -1,6 +1,8 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
+  font-family: "微軟正黑體";
 }
 
 .guide-container {
@@ -161,8 +163,8 @@ html, body {
 @media (min-width: 0px) {
   .content_format {
     margin-top: 1%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 @media (min-width: 1000px) {
