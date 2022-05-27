@@ -40,6 +40,7 @@ $(function(){
             data: formData,
             success: function(data) {
                 if(data['res']=='success'){
+                    alert('登入成功');
                     window.location.replace('LaptopShoppingSiteFront/templates/index.html'); //跳轉頁面
                 }
                 else{
@@ -108,9 +109,7 @@ $(function(){
                     // location.reload();
                 }
                 else{
-                    // alert(data['msg']);
-                    alert('OK');
-                    window.location.replace('/LaptopShoppingSiteFront/templates/index.html'); //跳轉頁面
+                    alert(data['msg']);
                 }
             },
             error: function(jqXHR) {
