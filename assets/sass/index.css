@@ -17,6 +17,7 @@
     background-color: white;
     border-radius: 10px;
     height: 150px;
+    margin-bottom: 2%;
   }
 }
 @media (min-width: 1000px) {
