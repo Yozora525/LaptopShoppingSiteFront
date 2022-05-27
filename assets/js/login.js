@@ -34,7 +34,7 @@ $(function(){
             data: {'ACC':account,'PWD':pwd},
             success: function(data) {
                 if(data['res']=='success'){
-                    window.location.replace('/templates/index.html'); //跳轉頁面
+                    window.location.replace('LaptopShoppingSiteFront/templates/index.html'); //跳轉頁面
                 }
                 else{
                     alert(data['msg']);
@@ -113,13 +113,13 @@ $(function(){
             success: function(data) {
                 if(data['res']=='success'){
                     alert('註冊成功');
-                    window.location.replace('/templates/index.html'); //跳轉頁面
+                    window.location.replace('/LaptopShoppingSiteFront/templates/index.html'); //跳轉頁面
                     // location.reload();
                 }
                 else{
                     // alert(data['msg']);
                     alert('OK');
-                    window.location.replace('/templates/index.html'); //跳轉頁面
+                    window.location.replace('/LaptopShoppingSiteFront/templates/index.html'); //跳轉頁面
                 }
             },
             error: function(jqXHR) {
