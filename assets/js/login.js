@@ -112,13 +112,14 @@ $(function(){
             contentType : false,
             success: function(data) {
                 if(data['res']=='success'){
-                    alert('註冊成功')
+                    alert('註冊成功');
                     window.location.replace('/templates/index.html'); //跳轉頁面
                     // location.reload();
                 }
                 else{
                     // alert(data['msg']);
-                    alert('OK')
+                    alert('OK');
+                    window.location.replace('/templates/index.html'); //跳轉頁面
                 }
             },
             error: function(jqXHR) {
