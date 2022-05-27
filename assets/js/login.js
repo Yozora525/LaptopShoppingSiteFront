@@ -151,5 +151,48 @@ $(function(){
         }
     });
 
+    $('#admin-login').on('click', function(event){
+        let formData = new FormData();
+        let acc = $('#admin-acc').val();
+        let pwd = $('#admin-pwd').val();
+
+        if(acc.length == 0){
+            $('#login-acc-tip').html('請輸入帳號');
+            return;
+        }else{
+            $('#login-acc-tip').html('');
+            formData.append('acc', acc);
+        }
+
+        if(pwd.length == 0){
+            $('#login-pwd-tip').html('請輸入密碼');
+            return;
+        }else{
+            $('#login-pwd-tip').html('');
+            formData.append('pwd', pwd);
+        }
+
+
+        $.ajax({
+            // ex:/專案名/資料夾名/檔案名
+            url: "/",
+            type: "POST",
+            // dataType: 'json',
+            data: formData,
+            success: function(data) {
+                if(data['res']=='success'){
+                    alert('登入成功');
+                    window.location.replace('LaptopShoppingSiteFront/templates/.html'); //跳轉頁面
+                }
+                else{
+                    alert(data['msg']);
+                }
+            },
+            error: function(jqXHR) {
+                alert(jqXHR.statusText);
+                alert(jqXHR.responseText);
+            }
+        });
+    });
 
 });

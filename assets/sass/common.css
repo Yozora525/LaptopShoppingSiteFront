@@ -5,6 +5,11 @@
   font-family: "微軟正黑體";
 }
 
+.manage {
+  color: #FFF;
+  text-decoration: none;
+}
+
 .guide-container {
   width: 100%;
   background-color: #0096C7;
