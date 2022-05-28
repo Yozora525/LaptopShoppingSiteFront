@@ -22,16 +22,27 @@
     }
 }
 
-.filter{
-    @include small{
 
+
+
+// 篩絢
+.product-filter{
+    @include small{
+        .filter{
+            
+        }
     }
 
     @include large{
         width: 20%;
+        .filter{
+
+        }
     }
 }
 
+
+// 產品列表
 .product-list{
     @include small{
 

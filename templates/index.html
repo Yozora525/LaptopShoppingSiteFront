@@ -16,13 +16,15 @@
     <script src="../assets/js/lib/slick/slick.min.js"></script>
     <link rel="stylesheet" href="../assets/js/lib/slick/slick-theme.css" />
     <link rel="stylesheet" href="../assets/js/lib/slick/slick.css" />
-    <script src="../assets/js/slick.js"></script>
     <!-- 引入blockUI -->
     <script src="../assets/js/lib/blockUI/jquery.blockUI.js"></script>
-    <script src="../assets/js/loading.js"></script>
     <!-- 引入css -->
     <link rel="stylesheet" href="../assets/sass/common.css" />
     <link rel="stylesheet" href="../assets/sass/index.css" />
+    <!-- 引入自寫js -->
+    <script src="../assets/js/loading.js"></script>
+    <script src="../assets/js/slick.js"></script>
+    <script src="../assets/js/index.js"></script>
     <!-- <style>
         @import url("../assets/sass/product.css");
     </style> -->
@@ -74,11 +76,52 @@
                 </div>
             </div>
             
+
+            <!-- 產品 and 篩選 -->
             <div class="product-group">
                 <!-- 篩選 -->
-                <div class="filter">
-                    篩選
-
+                <div class="product-filter">
+                    <div id="filter-slide" class="" style="text-align:center;">
+                        <span class="">篩選</span>
+                    </div>
+                    <div id="filter" class="filter">
+                        <div class="filter-container">
+                            <!-- 品牌 -->
+                            <div class="filter-type">
+                                <span>品牌</span>
+                            </div>
+                            <div class="filter-item">
+                                <!-- checkBox -->
+                            </div>
+                        </div>
+                        <div class="filter-container">
+                            <!-- 螢幕尺寸 -->
+                            <div class="filter-type">
+                                <span>螢幕尺寸</span>
+                            </div>
+                            <div class="filter-item">
+                                <!-- checkBox -->
+                            </div>
+                        </div>
+                        <div class="filter-container">
+                            <!-- 使用類型 -->
+                            <div class="filter-type">
+                                <span>使用類型</span>
+                            </div>
+                            <div class="filter-item">
+                                <!-- checkBox -->
+                            </div>
+                        </div>
+                        <div class="filter-container">
+                            <!-- 價格範圍 -->
+                            <div class="filter-type">
+                                <span>價格範圍</span>
+                            </div>
+                            <div class="filter-item">
+                                <!-- checkBox -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- 產品列表 -->
                 <div class="product-list">
@@ -155,7 +198,6 @@
                     </div>
 
                 </div>
-
             </div>
             <!-- 
             <div class="product">
