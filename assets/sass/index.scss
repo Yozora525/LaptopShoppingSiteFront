@@ -10,15 +10,49 @@
     }
 }
 
+.product-group{
+    @include small{
+
+    }
+
+    @include large{
+        display:flex;
+        margin: 5% 2.5% 5% 2.5%;
+        border: 1px solid #ccc;
+    }
+}
+
+.filter{
+    @include small{
+
+    }
+
+    @include large{
+        width: 20%;
+    }
+}
+
+.product-list{
+    @include small{
+
+    }
+
+    @include large{
+        width: 80%;
+        border: 1px solid #ccc;
+    }
+}
+
 .product{
     @include small{
-        margin: 2% 5% 2% 5%;
+        // margin: 2% 5% 2% 5%;
         border: 1px solid #ccc;
+        margin-bottom: 2%;
     }
 
     @include large{
         display: flex;
-        margin: 2% 5% 2% 5%;
+        // margin: 2% 5% 2% 5%;
     }
     
 }
