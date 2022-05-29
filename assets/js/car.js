@@ -50,7 +50,7 @@ $(function() {
         $.ajax({
             url: "/",
             type: "POST",
-            dataType: 'json',
+            // dataType: 'json',
             data: {'product':item},
             success: function(data) {
                 if(data['res']=='success'){
