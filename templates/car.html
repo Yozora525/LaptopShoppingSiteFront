@@ -18,6 +18,7 @@
         <script src="../assets/js/login.js"></script>
         <!-- 引入css -->
         <link rel="stylesheet" href="../assets/sass/common.css" />
+        <link rel="stylesheet" href="../assets/sass/car.css" />
         <!-- 引入自寫js -->
         <script src="../assets/js/loading.js"></script>
     </head>
@@ -29,7 +30,7 @@
         <div class="guide-container">
             <nav class="nav-header">
                 <div class="home" style="border:3px solid #ccc;">
-                    <a href="index.html">首頁</a>
+                    <a href="index.html">首頁 | 購物車</a>
                 </div>
                 <div class="key-word-search">
                     <form method="GET" action="">
@@ -56,8 +57,73 @@
             <div id="loading" style="display: none;">
                 <img src="../assets/img/loading.gif">
             </div>
+            <!-- 購物車列表 -->
+            <div class="car-container">
+                <div class="car-title-container">
+                    <div class="car-title-checkbox">
+                        <input type="checkbox" class="" />
+                    </div>
+                    <div class="car-title-item">
+                        <span class="">商品</span>
+                    </div>
+                    <div class="car-title">
+                        <span class="">單價</span>
+                    </div>
+                    <div class="car-title">
+                        <span class="">數量</span>
+                    </div>
+                    <div class="car-title">
+                        <span class="">總計</span>
+                    </div>
+                    <div class="car-title">
+                        <span class="">操作</span>
+                    </div>
+                </div>
+                <form action="" method="POST" id="" class="">
+                    <!-- 購物車內商品 -->
+                    <div class="car-item" name="car-item">
+                        <div class="car-item-checkbox">
+                            <div class="item-checkbox">
+                                <input type="checkbox" class="" />
+                            </div>
+                            <div class="item-name">
+                                <span name="item-name">Apple MacBook Ari</span>
+                            </div>
+                        </div>
+                        <div class="car-item-other">
+                            <div class="car-item-price">
+                                <span class="item-price">38900</span>
+                            </div>
+                            <div class="car-item-quan">
+                                <div class="item-quan">
+                                    <input type="number" value="1" min="0" max="" oninput = "value=value.replace(/[^\d]/g,'')" />
+                                </div>
+                            </div>
+                            <div class="car-item-sum">
+                                <span class="item-sum">38900</span>
+                            </div>
+                            <div class="car-item-delete">
+                                <span class="item-delete">刪除</span>
+                            </div>
+                        </div>
+                    </div>
 
-            
+                    
+                    <div class="car-pay">
+                        <div class="total-container">
+                            <span class="">
+                                總金額: 
+                            </span>
+                            <span class="" id="car-pay-total" style="color: #0096C7;font-weight: bold;">
+                                33890
+                            </span>
+                        </div>
+                        <div class="car-par-btn">
+                            <button type="submit" class="">去買單</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
             
         </div>
     </main>
