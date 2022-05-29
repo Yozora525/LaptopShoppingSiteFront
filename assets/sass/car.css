@@ -17,7 +17,7 @@
     padding-top: 1%;
     background-color: #fff;
     color: #aaa;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
   }
   .car-container .car-title-container .car-title-checkbox {
     width: 10%;
@@ -36,7 +36,7 @@
   }
   .car-container .car-item {
     display: flex;
-    margin-bottom: 2%;
+    margin-bottom: 1.5%;
     height: 40px;
     padding-top: 1%;
     background-color: #FFF;
@@ -56,6 +56,10 @@
   .car-container .car-item .car-item-checkbox .item-name {
     width: 85%;
   }
+  .car-container .car-item .car-item-checkbox .item-name input {
+    font-size: 14px;
+    border: 0;
+  }
   .car-container .car-item .car-item-other {
     width: 39%;
     display: flex;
@@ -63,12 +67,16 @@
   .car-container .car-item .car-item-other .car-item-price {
     width: 25%;
   }
+  .car-container .car-item .car-item-other .car-item-price input {
+    border: 0px;
+  }
   .car-container .car-item .car-item-other .car-item-quan {
     width: 25%;
   }
   .car-container .car-item .car-item-other .car-item-quan input {
     width: 50px;
     text-align: center;
+    border-color: #eee;
   }
   .car-container .car-item .car-item-other .car-item-sum {
     width: 25%;

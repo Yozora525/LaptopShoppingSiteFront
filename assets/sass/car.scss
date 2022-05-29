@@ -35,7 +35,7 @@
             padding-top: 1%;
             background-color: #fff;
             color: #aaa;
-            margin-bottom: 1%;
+            margin-bottom: 2%;
             .car-title-checkbox{
                 width: 10%;
                 padding-left: 3%;
@@ -57,7 +57,7 @@
 
         .car-item{
             display: flex;
-            margin-bottom: 2%;
+            margin-bottom: 1.5%;
             height: 40px;
             padding-top: 1%;
             background-color: #FFF;
@@ -78,6 +78,10 @@
 
                 .item-name{
                     width: 85%;
+                    input{
+                        font-size:14px;
+                        border: 0;
+                    }
                 }
             }
 
@@ -87,6 +91,9 @@
 
                 .car-item-price{
                     width: 25%;
+                    input{
+                        border: 0px;
+                    }
                 }
 
                 .car-item-quan{
@@ -94,6 +101,7 @@
                     input{
                         width: 50px;
                         text-align: center;
+                        border-color: #eee;
                     }
                 }
 

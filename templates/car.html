@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="../assets/sass/car.css" />
         <!-- 引入自寫js -->
         <script src="../assets/js/loading.js"></script>
+        <script src="../assets/js/car.js"></script>
     </head>
 <body>
     <header>
@@ -61,7 +62,7 @@
             <div class="car-container">
                 <div class="car-title-container">
                     <div class="car-title-checkbox">
-                        <input type="checkbox" class="" />
+                        <input type="checkbox" class="" id="all-check"/>
                     </div>
                     <div class="car-title-item">
                         <span class="">商品</span>
@@ -84,39 +85,65 @@
                     <div class="car-item" name="car-item">
                         <div class="car-item-checkbox">
                             <div class="item-checkbox">
-                                <input type="checkbox" class="" />
+                                <input type="checkbox" name="item-check" />
                             </div>
                             <div class="item-name">
-                                <span name="item-name">Apple MacBook Ari</span>
+                                <input type="text" name="item-name" value="Apple MacBook Ari" readonly/>
                             </div>
                         </div>
                         <div class="car-item-other">
                             <div class="car-item-price">
-                                <span class="item-price">38900</span>
+                                <input type="text" class="item-price" name="item-price" value="38900" readonly/>
                             </div>
                             <div class="car-item-quan">
                                 <div class="item-quan">
-                                    <input type="number" value="1" min="0" max="" oninput = "value=value.replace(/[^\d]/g,'')" />
+                                    <input type="number" name="item-quan" value="1" min="1" max="" oninput = "value=value.replace(/[^\d]/g,'')" />
                                 </div>
                             </div>
                             <div class="car-item-sum">
-                                <span class="item-sum">38900</span>
+                                <span class="item-sum" name="item-sum">38900</span>
                             </div>
                             <div class="car-item-delete">
-                                <span class="item-delete">刪除</span>
+                                <span class="item-delete" name="item-delete">刪除</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="car-item" name="car-item">
+                        <div class="car-item-checkbox">
+                            <div class="item-checkbox">
+                                <input type="checkbox" name="item-check" />
+                            </div>
+                            <div class="item-name">
+                                <input type="text" name="item-name" value="Apple MacBook Ari" readonly/>
+                            </div>
+                        </div>
+                        <div class="car-item-other">
+                            <div class="car-item-price">
+                                <input type="text" class="item-price" name="item-price" value="38900" readonly/>
+                            </div>
+                            <div class="car-item-quan">
+                                <div class="item-quan">
+                                    <input type="number" name="item-quan" value="1" min="1" max="" oninput = "value=value.replace(/[^\d]/g,'')" />
+                                </div>
+                            </div>
+                            <div class="car-item-sum">
+                                <span class="item-sum" name="item-sum">38900</span>
+                            </div>
+                            <div class="car-item-delete">
+                                <span class="item-delete" name="item-delete">刪除</span>
                             </div>
                         </div>
                     </div>
 
                     
+                    
+
+                    
                     <div class="car-pay">
                         <div class="total-container">
-                            <span class="">
-                                總金額: 
-                            </span>
-                            <span class="" id="car-pay-total" style="color: #0096C7;font-weight: bold;">
-                                33890
-                            </span>
+                            <span class=""> 總金額: </span>
+                            <span class="" id="car-pay-total" style="color: #0096C7;font-weight: bold;"> 0 </span>
                         </div>
                         <div class="car-par-btn">
                             <button type="submit" class="">去買單</button>
