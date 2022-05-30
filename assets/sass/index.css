@@ -80,7 +80,52 @@
   .protext {
     font-family:"微軟正黑體";
     text-align: center;
-    
+  }
+}
 
+@media (min-width: 0px) {
+  .prohot {
+    
+  }
+}
+@media (min-width: 1000px) {
+  .prohot {
+    background-color: #eee;
+    display: flex;
+  }
+}
+
+@media (min-width: 0px) {
+  .prohot-img {
+    
+  }
+}
+@media (min-width: 1000px) {
+  .prohot-img {
+    max-width: 300px;
+    max-height: 200px;
+  }
+}
+
+@media (min-width: 0px) {
+  .prohotlist {
+    
+  }
+}
+@media (min-width: 1000px) {
+  .prohotlist{
+     display: block;
+     padding-left: 15%;
+  }
+}
+
+@media (min-width: 0px) {
+  .prohottext {
+    
+  }
+}
+@media (min-width: 1000px) {
+  .prohottext{
+     padding-bottom: 20px;
   }
 }
