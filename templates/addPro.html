@@ -50,10 +50,85 @@
                 <img src="../assets/img/loading.gif">
             </div>
 
-            <div>
-                
+            <div class="add-pro-container">
+                <table class="add-pro-table" border="1">
+                    <tr>
+                        <td>
+                            產品名稱：
+                        </td>
+                        <td>
+                            <input type="text" id="add-pro-name" placeholder="請輸入產品名稱" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            品牌：
+                        </td>
+                        <td>
+                            <input type="text" id="add-pro-brand" placeholder="請輸入品牌" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            型號：
+                        </td>
+                        <td>
+                            <input type="text" id="add-pro-model" placeholder="請輸入型號" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            螢幕尺寸：
+                        </td>
+                        <td>
+                            <input type="text" id="add-pro-size" placeholder="請輸入螢幕尺寸"  oninput = "value=value.replace(/[^\d\.]/g,'')"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            有無觸控功能：
+                        </td>
+                        <td>
+                            <input type="radio" name="add-pro-touch" value="1" />
+                            <label>有</label>
+                            <input type="radio" name="add-pro-touch" value="0" checked/>
+                            <label>無</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            選擇產品類型：
+                        </td>
+                        <td>
+                            <select id="add-pro-type">
+                                <option value="商務">商務</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            庫存數量：
+                        </td>
+                        <td>
+                            <input type="text" id="add-pro-inventory" placeholder="請輸入存貨數量"  oninput = "value=value.replace(/[^\d\.]/g,'')"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            單價：
+                        </td>
+                        <td>
+                            <input type="text" id="add-pro-price" placeholder="請輸入產品單價"  oninput = "value=value.replace(/[^\d\.]/g,'')"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button id="add-pro">新增產品</button>
+                        </td>
+                    </tr>
+                </table>
             </div>
-            
+
         </div>
     </main>
     <footer class="footer">
