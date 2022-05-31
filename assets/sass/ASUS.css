@@ -48,10 +48,36 @@
   }
   @media (min-width: 1000px) {
     .L-I-IMG {
-        max-width: 500px;
-        max-height: 400px;
+        display: block;
         width: 40%;
-        margin-top: -3%;
+        
+        
+    }
+  }
+
+  @media (min-width: 0px) {
+    .L-I-IMG-1 {
+      
+    }
+  }
+  @media (min-width: 1000px) {
+    .L-I-IMG-1 {
+        padding-left: 40%;
+        
+        
+    }
+  }
+
+  @media (min-width: 0px) {
+    .L-I-IMG-IN {
+      
+    }
+  }
+  @media (min-width: 1000px) {
+    .L-I-IMG-IN {
+        display: flex;
+        padding-left: 40%;
+        
     }
   }
   @media (min-width: 0px) {
@@ -186,7 +212,7 @@
         color: #000;
         background-color: #84C1FF;
         border: 1px solid #000;
-        margin-left:40%;
+        margin-left:45%;
         margin-top: 2%;
         font-size: 30px;
         padding-top:0%;
@@ -206,6 +232,8 @@
         font-family: "微軟正黑體";
         padding-top: 2%;
         margin-left: 10%;
+        margin-right: 10%;
+
     }
   }
   
