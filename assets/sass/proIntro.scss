@@ -28,7 +28,6 @@
         background-color: #fff;
 
         .pro-img-container{
-            border: 1px solid red;
             width: 35%;
             .img-up{
                 height: 220px;
@@ -63,7 +62,6 @@
         }
 
         .pro-info-container{
-            border: 1px solid blue;
             width: 65%;
 
             .pro-name{
@@ -73,25 +71,21 @@
             .pro-sold-quan{
                 margin-top: 1%;
                 font-size: 1.25em;
-                padding-left: 3%;
             }
 
             .pro-price{
-                margin-top: 1%;
-                padding-left: 3%;
+                margin-top: 1.5%;
                 font-size: 1.75em;
                 color: #0096C7;
             }
 
             .pro-inventory{
-                margin-top: 1%;
-                padding-left: 3%;
+                margin-top: 1.5%;
                 font-size: 1.25em;
             }
 
             .pro-quan{
-                margin-top: 1%;
-                padding-left: 3%;
+                margin-top: 2%;
                 font-size: 1.25em;
                 input{
                     width: 5%;
@@ -111,13 +105,82 @@
             }
 
             .pro-btn-container{
-                display: flex;
-                padding-left: 3%;
+                height: 50px;
                 margin-top: 3%;
                 button{
-                    
+                    height: 40px;
+                    font-size: 1em;
+                    width: 20%;
+                    background-color: #0096C7;
+                    color: #fff;
+                    border: 0;
                 }
             }
         }
     }
+}
+
+
+.pro-intro-container{
+    @include small{
+
+    }
+
+    @include large {
+        margin: 3% 10% 3% 10%;
+        background-color: #fff;
+
+        
+
+        .pro-intro-content{
+            margin-top: 1.5%;
+            font-size: 1em;
+            padding-left: 2%;
+        }
+    }
+}
+
+.pro-eval-container{
+    @include small{
+
+    }
+
+    @include large {
+        margin: 3% 10% 3% 10%;
+        background-color: #fff;
+        .pro-eval{
+            border-bottom: 1px solid #ccc;
+            .eval-user{
+                margin-top: 1.5%;
+                padding-left: 2%;    
+                font-size: 0.8em;
+            }
+            .eval-info{
+                margin-top: 0.5%;
+                padding-left: 2%;    
+                font-size: 0.8em;
+            }
+            .eval-content{
+                margin-top: 0.5%;
+                padding-left: 2%;    
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+.eval-star{
+    color: #0096C7;
+}
+
+.pro-intro-title{
+    @include small{
+
+    }
+
+    @include large {
+        font-size: 1.5em;
+        padding-left: 2%;
+    }
+    
 }
