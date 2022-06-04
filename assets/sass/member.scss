@@ -39,7 +39,7 @@
     }
 }
 
-.i-w-list{
+.info-word-list{
     @include small{
         
     }
@@ -55,7 +55,7 @@
     }
 }
 
-.i-w-i-name{
+.info-word-list-name{
     @include small{
 
     }
@@ -70,13 +70,13 @@
     }
 }
 
-.i-w-i-btn{
+.info-word-list-button{
     @include small{
 
     }
     @include large{
-       
-        background-color: #0096C7;
+        
+        
         color: #fff;
         border-radius: 10px;
         font-size: 1.25em;

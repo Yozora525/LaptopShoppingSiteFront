@@ -18,7 +18,7 @@
 }
 
 @media (min-width: 1000px) {
-  .i-w-list {
+  .info-word-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -31,7 +31,7 @@
 }
 
 @media (min-width: 1000px) {
-  .i-w-i-name {
+  .info-word-list-name {
     width: 40%;
     margin-left: 30%;
     font-size: 2.25em;
@@ -43,8 +43,7 @@
 }
 
 @media (min-width: 1000px) {
-  .i-w-i-btn {
-    background-color: #0096C7;
+  .info-word-list-button {
     color: #fff;
     border-radius: 10px;
     font-size: 1.25em;
