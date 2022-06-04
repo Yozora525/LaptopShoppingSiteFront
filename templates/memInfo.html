@@ -20,6 +20,9 @@
         <link rel="stylesheet" href="../assets/sass/common.css" />
         <!-- 引入自寫js -->
         <script src="../assets/js/loading.js"></script>
+        <style>
+            @import url("../assets/sass/member.css");
+        </style>
     </head>
 <body>
     <header>
@@ -56,6 +59,128 @@
             <div id="loading" style="display: none;">
                 <img src="../assets/img/loading.gif">
             </div>
+            
+        </div>
+        <div class="info">
+            <h1 style="text-align: center;">基本資料</h1>
+            <div class="info-word" >
+                <div class="i-w-list">
+                    <div class="i-w-i-name">
+                        姓名: 王小名
+                    </div>
+                    <div class="i-w-i-btn">
+                        更改                      
+                    </div>
+                </div>
+                <div class="i-w-list">
+                    <div class="i-w-i-name">
+                        性別: 男
+                    </div>
+                   
+                </div>
+                <div class="i-w-list">
+                    <div class="i-w-i-name">
+                        電話: 09123456789
+                    </div>
+                    <button class="i-w-i-btn">
+                        更改                      
+                    </button>
+                </div>
+                <div class="i-w-list">
+                    <div class="i-w-i-name">
+                        生日: 2000/2/2
+                    </div>
+                </div>
+                <div class="i-w-list">
+                    <div class="i-w-i-name">
+                        E-mail: aa@gmail.com
+                    </div>
+                    <button class="i-w-i-btn">
+                        更改                      
+                    </button>
+                </div>
+            </div>
+            <h1 style="text-align: center; padding-top: 2%;">訂單紀錄</h1>
+            <div id="trans-table">
+                <table class="trans-table">
+                    <thead>
+                        <tr>
+                            <th>
+                                <span>#</span>
+                            </th>
+                            <th>
+                                <span>訂單編號</span>
+                            </th>
+                            <th>
+                                <span>交易日期</span>
+                            </th>
+                            <th>
+                                <span>商品名稱</span>
+                            </th>
+                            <th>
+                                <span>單價</span>
+                            </th>
+                            <th>
+                                <span>數量</span>
+                            </th>
+                            <th>
+                                <span>金額</span>
+                            </th>
+                        </tr>
+                        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span>  1</span>
+                            </td>
+                            <td>
+                                <span name=""></span>
+                            </td>
+                            <td>
+                                <span name="">2000-05-06</span>
+                            </td>
+                            <td>
+                                <span name="">ASUS X515</span>
+                            </td>
+                            <td>
+                                <span name="">$17900</span>
+                            </td>
+                            <td>
+                                <span name="">1</span>
+                            </td>
+                            <td>
+                                <span name="">$17900</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>  2</span>
+                            </td>
+                            <td>
+                                <span name=""></span>
+                            </td>
+                            <td>
+                                <span name="">2000-05-15</span>
+                            </td>
+                            <td>
+                                <span name="">ACER Swift5</span>
+                            </td>
+                            <td>
+                                <span name="">$29900</span>
+                            </td>
+                            <td>
+                                <span name="">1</span>
+                            </td>
+                            <td>
+                                <span name="">$29900</span>
+                            </td>
+                        </tr>
+                        
+                        
+                    </tbody>
+                </table>
+            </div>           
             
         </div>
     </main>

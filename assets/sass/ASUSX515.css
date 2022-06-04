@@ -50,6 +50,8 @@
 
 @media (min-width: 1000px) {
   .L-INFO {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 0%;
   }
@@ -77,6 +79,8 @@
 
 @media (min-width: 1000px) {
   .buy {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-family: "微軟正黑體";
     font-size: 25px;
@@ -99,6 +103,8 @@
     background-color: #84C1FF;
     border-radius: 10px;
     padding: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -127,6 +133,8 @@
     padding: 10px 10px 10px 20px;
     font-size: 20px;
     font-family: "微軟正黑體";
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -170,6 +178,8 @@
 
 @media (min-width: 1000px) {
   .star {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-left: 10%;
     font-size: 35px;
@@ -187,12 +197,16 @@
 
 @media (min-width: 1000px) {
   .starandsubmit {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }
 
 @media (min-width: 1000px) {
   .givestar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-left: 20%;
   }
@@ -204,4 +218,5 @@
     font-size: 35px;
     width: 20%;
   }
-}/*# sourceMappingURL=ASUSX515.css.map */
+}
+/*# sourceMappingURL=ASUSX515.css.map */

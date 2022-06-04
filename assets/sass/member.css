@@ -1,0 +1,76 @@
+@media (min-width: 1000px) {
+  .info {
+    display: block;
+    margin-top: -3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .info-word {
+    padding-left: -5%;
+    padding-top: 1%;
+    background-color: white;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .i-w-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: -2%;
+    padding-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .i-w-i-name {
+    width: 40%;
+    margin-left: 30%;
+    font-size: 2.25em;
+    padding-top: -2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 1000px) {
+  .i-w-i-btn {
+    background-color: #0096C7;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.25em;
+    margin: 1% 1%;
+    padding: 0.5%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .buy-record {
+    padding-left: 5%;
+    padding-top: 3%;
+    background-color: white;
+  }
+}
+
+.trans-table {
+  margin-top: 1%;
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+.trans-table th, .trans-table td {
+  text-align: center;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+/*# sourceMappingURL=member.css.map */
