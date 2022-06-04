@@ -15,7 +15,7 @@ $(function() {
         }else{
             $(this).val($(this).val());
         }
-        alert($(this).val());
+        // alert($(this).val());
         $('input[name="item-quan"').change();
     });
 
