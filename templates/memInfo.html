@@ -18,11 +18,9 @@
         <script src="../assets/js/login.js"></script>
         <!-- 引入css -->
         <link rel="stylesheet" href="../assets/sass/common.css" />
+        <link rel="stylesheet" href="../assets/sass/member.css" />
         <!-- 引入自寫js -->
         <script src="../assets/js/loading.js"></script>
-        <style>
-            @import url("../assets/sass/member.css");
-        </style>
     </head>
 <body>
     <header>
@@ -62,46 +60,32 @@
             
         </div>
         <div class="info">
-            <h1 style="text-align: center;">基本資料</h1>
-            <div class="info-word" >
-                <div class="info-word-list">
-                    <div class="info-word-list-name">
-                        姓名: 王小名
-                    </div>
-                    <div class="info-word-list-button">
-                        <button>更改</button>                     
-                    </div>
+            <div id="info-title" class="info-title">
+                <span>基本資料</span>
+            </div>
+            <div class="info-container" id="">
+                <div class="info-img-container">
+                    <!-- 頭貼icon -->
+                    <img src="../assets/img/icon/memcenter-mem2.png" />
                 </div>
-                <div class="info-word-list">
-                    <div class="info-word-list-name">
-                        性別: 男
+                <div class="info-content-container">
+                    <div>
+                        <span>姓名</span>
+                        <input type="text" class="" value="" />
                     </div>
-                   
-                </div>
-                <div class="info-word-list">
-                    <div class="info-word-list-name">
-                        電話: 09123456789
-                    </div>
-                    <div class="info-word-list-button">
-                        <button>更改</button>                     
-                    </div>
-                </div>
-                <div class="info-word-list">
-                    <div class="info-word-list-name">
-                        生日: 2000/2/2
-                    </div>
-                </div>
-                <div class="info-word-list">
-                    <div class="info-word-list-name">
-                        E-mail: aa@gmail.com
-                    </div>
-                    <div class="info-word-list-button">
-                        <button>更改</button>                     
+                    <div>
+                        <span>電子信箱</span>
+                        <input type="text" class="" value="" />
                     </div>
                 </div>
             </div>
-            <h1 style="text-align: center; padding-top: 2%;">訂單紀錄</h1>
-            <div id="trans-table">
+        </div>
+
+        <div class="trans-data-container">
+            <div id="trans-table-title" class="trans-table-title">
+                <span>購買記錄</span>
+            </div>
+            <div  class="trans-table">
                 <table class="trans-table">
                     <thead>
                         <tr>
@@ -124,7 +108,7 @@
                                 <span>數量</span>
                             </th>
                             <th>
-                                <span>金額</span>
+                                <span>總額</span>
                             </th>
                         </tr>
                         
@@ -176,13 +160,13 @@
                                 <span name="">$29900</span>
                             </td>
                         </tr>
-                        
-                        
                     </tbody>
                 </table>
-            </div>           
-            
+            </div>
         </div>
+            
+            
+        
     </main>
     <footer class="footer">
         <span class="copyright">&copy;</span>
