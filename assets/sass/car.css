@@ -3,8 +3,11 @@
   margin-left: 5%;
   margin-right: 5%;
 }
+
 @media (min-width: 0px) {
   .car-container .car-title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 1em;
     height: 32px;
@@ -29,6 +32,8 @@
     width: 12%;
   }
   .car-container .car-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 1.5%;
     height: 32px;
@@ -36,6 +41,8 @@
     background-color: #FFF;
   }
   .car-container .car-item .car-item-checkbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 55%;
   }
@@ -56,6 +63,8 @@
   }
   .car-container .car-item .car-item-other {
     width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 0.75em;
   }
@@ -85,6 +94,8 @@
   }
   .car-container .car-pay {
     background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .car-container .car-pay .total-container {
@@ -105,8 +116,11 @@
     background-color: #0096C7;
   }
 }
+
 @media (min-width: 1000px) {
   .car-container .car-title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 18px;
     height: 40px;
@@ -131,6 +145,8 @@
     width: 10%;
   }
   .car-container .car-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 1.5%;
     height: 40px;
@@ -138,6 +154,8 @@
     background-color: #FFF;
   }
   .car-container .car-item .car-item-checkbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 61%;
   }
@@ -158,6 +176,8 @@
   }
   .car-container .car-item .car-item-other {
     width: 39%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .car-container .car-item .car-item-other .car-item-price {
@@ -186,6 +206,8 @@
   }
   .car-container .car-pay {
     background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .car-container .car-pay .total-container {
@@ -205,4 +227,5 @@
     color: #fff;
     background-color: #0096C7;
   }
-}/*# sourceMappingURL=car.css.map */
+}
+/*# sourceMappingURL=car.css.map */

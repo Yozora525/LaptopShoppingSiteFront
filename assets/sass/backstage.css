@@ -1,3 +1,17 @@
+@media (min-width: 0px) {
+  .btn-add-pro-container {
+    margin: 5% 5%;
+  }
+  .btn-add-pro-container button {
+    width: 25%;
+    height: 30px;
+    font-size: 1em;
+    background-color: #0096C7;
+    color: #fff;
+    border: 0;
+  }
+}
+
 @media (min-width: 1000px) {
   .btn-add-pro-container {
     margin: 2% 5% 3% 5%;
@@ -5,6 +19,23 @@
   }
   .btn-add-pro-container button {
     width: 10%;
+    height: 30px;
+    font-size: 1em;
+    background-color: #0096C7;
+    color: #fff;
+    border: 0;
+  }
+}
+
+@media (min-width: 0px) {
+  .add-pro-container {
+    margin: 5% 5%;
+  }
+  .add-pro-container .add-pro-table td {
+    padding-top: 5%;
+  }
+  .add-pro-container .add-pro-table button {
+    width: 30%;
     height: 30px;
     font-size: 1em;
     background-color: #0096C7;
@@ -41,6 +72,36 @@
   }
 }
 
+@media (min-width: 0px) {
+  .pro-container {
+    margin: 2% 5% 3% 5%;
+  }
+  .pro-container .pro-table-title {
+    width: 95%;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #0096c7;
+    color: #fff;
+  }
+  .pro-container .pro-table thead th {
+    text-align: center;
+    font-size: 20px;
+  }
+  .pro-container .pro-table tbody tr {
+    margin-left: 1%;
+  }
+  .pro-container .pro-table tbody td {
+    padding-left: 2%;
+    font-size: 10px;
+    text-align: center;
+  }
+  .pro-container .pro-table tbody td button {
+    background-color: #0096C7;
+    color: white;
+  }
+}
+
 @media (min-width: 1000px) {
   .pro-container {
     margin: 2% 5% 3% 5%;
@@ -70,6 +131,32 @@
     background-color: #0096C7;
     color: #fff;
     border: 0px;
+  }
+}
+
+@media (min-width: 0px) {
+  .trans-data-container {
+    margin: 2% 5% 3% 5%;
+  }
+  .trans-data-container .trans-table-title {
+    width: 95%;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #0096c7;
+    color: #fff;
+  }
+  .trans-data-container .trans-filter {
+    margin: 1% 1%;
+  }
+  .trans-data-container .trans-table {
+    margin-top: 1%;
+    width: 100%;
+  }
+  .trans-data-container .trans-table th, .trans-data-container .trans-table td {
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
   }
 }
 
