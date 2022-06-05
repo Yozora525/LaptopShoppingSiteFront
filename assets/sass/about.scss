@@ -62,3 +62,12 @@
     }
 }
 
+.pic{
+    @include small{
+
+    }
+    @include large{
+        border-radius: 10px;
+    }
+}
+

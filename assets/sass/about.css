@@ -35,4 +35,10 @@
     padding-left: 4%;
   }
 }
+
+@media (min-width: 1000px) {
+  .pic {
+    border-radius: 10px;
+  }
+}
 /*# sourceMappingURL=about.css.map */
