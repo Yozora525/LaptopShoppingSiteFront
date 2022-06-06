@@ -29,6 +29,7 @@
   padding-left: 1%;
   width: 70%;
 }
+
 .info .info-container .info-content-container div {
   margin-bottom: 1%;
 }
@@ -92,6 +93,7 @@
   margin-right: 5%;
   margin-top: 5%;
 }
+
 .change-pwd .change-pwd-title {
   width: 100%;
   font-size: 24px;
@@ -99,10 +101,12 @@
   background-color: #0096c7;
   color: #fff;
 }
+
 .change-pwd .change-pwd-container {
   padding-left: 1%;
   background-color: #fff;
 }
+
 .change-pwd .change-pwd-container div {
   margin-bottom: 1%;
 }
@@ -114,3 +118,4 @@
   width: 10%;
   font-size: 1em;
 }
+/*# sourceMappingURL=member.css.map */

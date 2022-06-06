@@ -25,7 +25,9 @@
 
 .f-pic{
     @include small{
-        margin-top: -40%;       
+        margin-top: -35%;  
+        margin-left: -1%; 
+       
     }
     @include large{
         padding-left: 35%;  
@@ -35,16 +37,20 @@
 
 .f-word{
     @include small{
-        margin-top: -30%;
+        margin-top: -40%;
         padding-left: 10%;
-        font-size: smaller;
+        padding-right: 10%;
+        font-size: 0.55em;
     }
     @include large{
         padding-top: -20%;
         margin-top: -10%;
         text-align: center;
         padding-bottom: 5%;
-        margin-left: -8%;
+        margin-left: -10%;
+        width: 100%;
+        font-size: 1.5em;
+        
     }
 }
 
@@ -52,6 +58,8 @@
     @include small{
         font-size: 30px;
         text-align: center;
+        padding-top: 5%;
+        margin-left: 0%;
 
     }
     @include large{
@@ -62,6 +70,7 @@
         padding:1%;
         margin-right: 45%;
         text-align: center;
+        margin-top: -3%;
         
 
     }
