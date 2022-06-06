@@ -17,9 +17,14 @@
   width: 30%;
   border-right: 1px solid #ddd;
   text-align: center;
+  padding-top: 5%;
 }
 .info .info-container .info-content-container {
+  padding-left: 1%;
   width: 70%;
+}
+.info .info-container .info-content-container div {
+  margin-bottom: 1%;
 }
 
 @media (min-width: 0px) {
@@ -73,4 +78,32 @@
     border: 1px solid black;
     border-collapse: collapse;
   }
+}
+
+.change-pwd {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.change-pwd .change-pwd-title {
+  width: 100%;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: #0096c7;
+  color: #fff;
+}
+.change-pwd .change-pwd-container {
+  padding-left: 1%;
+  background-color: #fff;
+}
+.change-pwd .change-pwd-container div {
+  margin-bottom: 1%;
+}
+
+.btn-change {
+  background-color: #0096c7;
+  color: #fff;
+  border: 0;
+  width: 10%;
+  font-size: 1em;
 }/*# sourceMappingURL=member.css.map */
