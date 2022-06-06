@@ -12,11 +12,12 @@
 
 .finish{
     @include small{
-
+        display: block;
     }
     @include large{
         display: block;
         margin-top: 0%;
+        padding-top: 5%;
        
         
         
@@ -40,14 +41,14 @@
         margin-top: -40%;
         padding-left: 10%;
         padding-right: 10%;
-        font-size: 0.55em;
+        font-size: 0.75em;
     }
     @include large{
         padding-top: -20%;
-        margin-top: -10%;
+        margin-top: -6%;
         text-align: center;
         padding-bottom: 5%;
-        margin-left: -10%;
+        margin-left: -15%;
         width: 100%;
         font-size: 1.5em;
         
@@ -56,20 +57,25 @@
 
 .f-back{
     @include small{
-        font-size: 30px;
         text-align: center;
-        padding-top: 5%;
-        margin-left: 0%;
-
+        padding: 2%;
+        background-color:#84C1FF;
+        margin-left: 35%;
+        margin-right: 35%;
+       
+        margin-top: 5%;
+        
+       
+       
     }
     @include large{
-        font-size: 30px;
-        margin-left:40%;
+        font-size: 1.5em;
+        text-align: center;
         background-color:#84C1FF;
         border-radius: 10px;
         padding:1%;
-        margin-right: 45%;
-        text-align: center;
+        margin-left: 38%;
+        margin-right: 50%;
         margin-top: -3%;
         
 
