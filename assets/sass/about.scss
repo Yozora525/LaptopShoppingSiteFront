@@ -1,0 +1,73 @@
+@mixin small {
+    @media (min-width: 0px){
+        @content;
+    }
+}
+
+@mixin large {
+    @media (min-width: 1000px){
+        @content;
+    }
+}
+
+.about{
+    @include small{
+
+    }
+    @include large{
+        display: block;
+        height: 80%;
+        margin-top: -2%;
+        
+    }
+}
+
+.about-list{
+    @include small{
+
+    }
+    @include large{
+        display: flex;
+        margin: 3%;
+        background-color:white;
+        height: 20%;
+        
+        
+    }
+}
+
+.about-list-img{
+    @include small{
+
+    }
+    @include large{
+        border-radius: 1cm;
+        padding-left: 10%;
+        width: 20%;
+        margin: 3% 0%;
+        
+    }
+}
+
+.about-list-word{
+    @include small{
+
+    }
+    @include large{
+        display: block;   
+        margin-top: 3%; 
+        margin-right: 10%; 
+        font-size: 1.5em; 
+        padding-left: 4%; 
+    }
+}
+
+.pic{
+    @include small{
+
+    }
+    @include large{
+        border-radius: 10px;
+    }
+}
+

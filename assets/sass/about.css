@@ -1,0 +1,44 @@
+@media (min-width: 1000px) {
+  .about {
+    display: block;
+    height: 80%;
+    margin-top: -2%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 3%;
+    background-color: white;
+    height: 20%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-list-img {
+    border-radius: 1cm;
+    padding-left: 10%;
+    width: 20%;
+    margin: 3% 0%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-list-word {
+    display: block;
+    margin-top: 3%;
+    margin-right: 10%;
+    font-size: 1.5em;
+    padding-left: 4%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .pic {
+    border-radius: 10px;
+  }
+}
+/*# sourceMappingURL=about.css.map */
