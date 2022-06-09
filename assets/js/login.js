@@ -33,7 +33,7 @@ $(function(){
             // ex:/專案名/資料夾名/檔案名
             url: "/",
             type: "POST",
-            dataType: 'json',
+            // dataType: 'json',
             data: {'acc':acc,'pwd':pwd},
             success: function(data) {
                 if(data['res']=='success'){
