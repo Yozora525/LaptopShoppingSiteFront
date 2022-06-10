@@ -12,73 +12,74 @@
 
 .finish{
     @include small{
-        display: block;
+
     }
     @include large{
-        display: block;
-        margin-top: 0%;
-        padding-top: 5%;
-       
-        
-        
+       margin-top: 1%;
+       margin-left: 15%;
+       margin-right: 15%;
+       width: 60%
+      
     }
 }
 
-.f-pic{
+.finish-img{
     @include small{
-        margin-top: -35%;  
-        margin-left: -1%; 
-       
+        padding-left: 20%;
+        
     }
     @include large{
-        padding-left: 35%;  
-        margin-top: -10%;   
-    }
-}
-
-.f-word{
-    @include small{
-        margin-top: -40%;
-        padding-left: 10%;
-        padding-right: 10%;
-        font-size: 0.75em;
-    }
-    @include large{
-        padding-top: -20%;
-        margin-top:-9%;
+        width:78%;
+        height:400px;
+        margin-bottom: 20%;
         text-align: center;
-        padding-bottom: 5%;
-        margin-left: -13%;
+        
+        
+    }
+}
+
+.pic{
+    @include small{
+
+    }
+    @include large{
+        margin-top: 3%;
         width: 100%;
-        font-size: 1.5em;
+        height: 120%;
+        margin-left: -18%;
         
     }
 }
 
-.f-back{
+.finish-word{
     @include small{
-        text-align: center;
-        padding: 2%;
-        background-color:#84C1FF;
-        margin-left: 35%;
-        margin-right: 35%;
-       
-        margin-top: 5%;
-        
-       
-       
+        padding-left: 5%;
+        margin-top: -15%;
     }
     @include large{
+        text-align: center;      
+        margin-top: -20%; 
         font-size: 1.5em;
-        text-align: center;
-        background-color:#84C1FF;
-        border-radius: 10px;
-        padding:1%;
-        margin-left: 43%;
-        margin-right: 50%;
-        margin-top: -3%;
-        
+    }
+}
 
+.finish-back{
+    @include small{
+        text-align: center;
+        font-size: 1em;
+       
+        background-color: #0096C7;
+        margin-left: 25%;
+        margin-right: 40%;      
+    }
+    @include large{
+        text-align: center;
+        font-size: 1.5em;
+        padding-left: -5%;
+        background-color: #0096C7;
+        margin-left: 40%;
+        margin-right: 40%;
+        
     }
 }
 
