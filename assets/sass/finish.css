@@ -1,43 +1,54 @@
+@media (min-width: 0px) {
+  .finish {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 @media (min-width: 1000px) {
   .finish {
-    border: 1px solid #495;
+    margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
   }
 }
 
-@media (min-width: 1000px) {
-  .finish-img {
-    border: 1px solid #495;
-    text-align: center;
-  }
+.finish-img {
+  text-align: center;
 }
 
-@media (min-width: 1000px) {
-  .pic {
-    border: 1px solid #795;
-  }
-}
-
-@media (min-width: 1000px) {
-  .finish-word {
-    text-align: center;
-  }
+.finish-word {
+  text-align: center;
+  margin-top: 3%;
 }
 
 @media (min-width: 0px) {
   .finish-back {
     text-align: center;
     background-color: #0096C7;
+    text-align: center;
+    background-color: #0096C7;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 28px;
+  }
+  .finish-back a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25em;
   }
 }
 @media (min-width: 1000px) {
   .finish-back {
     text-align: center;
     background-color: #0096C7;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 32px;
   }
   .finish-back a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.5em;
   }
 }/*# sourceMappingURL=finish.css.map */

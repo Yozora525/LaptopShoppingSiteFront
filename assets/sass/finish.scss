@@ -12,56 +12,53 @@
 
 .finish{
     @include small{
-
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     @include large{
-        border: 1px solid #495;
+        margin-top: 10%;
         margin-left: 5%;
         margin-right: 5%;
     }
 }
 
 .finish-img{
-    @include small{
-        
-    }
-    @include large{
-        border: 1px solid #495;
-        text-align: center;
-    }
-}
-
-.pic{
-    @include small{
-
-    }
-    @include large{
-        border: 1px solid #795;
-    }
+    text-align: center;
 }
 
 .finish-word{
-    @include small{
-
-    }
-    @include large{
-        text-align: center;      
-
-    }
+        text-align: center;
+        margin-top: 3%;
 }
 
 .finish-back{
     @include small{
         text-align: center;
         background-color: #0096C7;  
-    }
-    @include large{
         text-align: center;
         background-color: #0096C7;
+        margin-left: 35%;
+        margin-right: 35%;
+        height: 28px;
         
         a{
             color: #fff;
             text-decoration: none;
+            font-size: 1.25em;
+        }
+    }
+    @include large{
+        text-align: center;
+        background-color: #0096C7;
+        margin-left: 40%;
+        margin-right: 40%;
+        height: 32px;
+        
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5em;
         }
     }
 }
