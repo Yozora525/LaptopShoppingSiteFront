@@ -9,6 +9,7 @@
 @media (min-width: 1000px) {
   .finish-img {
     border: 1px solid #495;
+    text-align: center;
   }
 }
 
