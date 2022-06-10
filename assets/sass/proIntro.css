@@ -24,8 +24,6 @@
   .pro-container .pro-img-container .img-down .img-down-container {
     height: 100%;
     margin-top: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .pro-container .pro-img-container .img-down .img-down-container div {
@@ -91,12 +89,9 @@
     border: 0;
   }
 }
-
 @media (min-width: 1000px) {
   .pro-container {
     margin: 0% 10% 3% 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     background-color: #fff;
   }
@@ -120,8 +115,6 @@
   .pro-container .pro-img-container .img-down .img-down-container {
     height: 100%;
     margin-top: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .pro-container .pro-img-container .img-down .img-down-container div {
@@ -201,7 +194,6 @@
     line-height: 2em;
   }
 }
-
 @media (min-width: 1000px) {
   .pro-intro-container {
     margin: 3% 10% 3% 10%;
@@ -241,7 +233,6 @@
     font-size: 0.8em;
   }
 }
-
 @media (min-width: 1000px) {
   .pro-eval-container {
     margin: 3% 10% 3% 10%;
@@ -277,11 +268,49 @@
     padding-left: 2%;
   }
 }
-
 @media (min-width: 1000px) {
   .pro-intro-title {
     font-size: 1.5em;
     padding-left: 2%;
   }
 }
-/*# sourceMappingURL=proIntro.css.map */
+
+@media (min-width: 0px) {
+  .new-eval-container {
+    margin: 3% 5% 3% 5%;
+    background-color: #fff;
+  }
+}
+@media (min-width: 1000px) {
+  .new-eval-container {
+    margin: 1.5% 30% 3% 30%;
+    background-color: #fff;
+  }
+  .new-eval-container .new-eval-star {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .new-eval-container .new-eval-star input {
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    width: 30%;
+    margin-left: 5%;
+  }
+  .new-eval-container .new-eval-content textarea {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    height: 100px;
+    resize: none;
+  }
+  .new-eval-container .btn-container {
+    text-align: center;
+  }
+  .new-eval-container .btn-container input {
+    width: 20%;
+    background-color: #0096C7;
+    color: #fff;
+    font-size: 1em;
+    border: 0;
+  }
+}/*# sourceMappingURL=proIntro.css.map */
