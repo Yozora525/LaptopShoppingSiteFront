@@ -107,6 +107,12 @@ $(function() {
                 //     success: function(data) {
                 //         if(data['res']=='success'){
                             // alert('刪除成功');
+                            if($($('input[name="item-check"]')[index]).prop('checked')) {
+                                var total = $('#car-pay-total').html();
+                                total -= parseInt($($('span[name="item-sum"]')[index]).text());
+                                $($('span[name="item-sum"]')[index]).text();
+                                $('#car-pay-total').html(total);
+                            }
                             
                             $($('div[name="car-item"]')[index]).remove();
                             // location.reload();
