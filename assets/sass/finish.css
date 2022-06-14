@@ -5,6 +5,7 @@
     margin-right: 5%;
   }
 }
+
 @media (min-width: 1000px) {
   .finish {
     margin-top: 10%;
@@ -38,6 +39,7 @@
     font-size: 1.25em;
   }
 }
+
 @media (min-width: 1000px) {
   .finish-back {
     text-align: center;
@@ -51,4 +53,5 @@
     text-decoration: none;
     font-size: 1.5em;
   }
-}/*# sourceMappingURL=finish.css.map */
+}
+/*# sourceMappingURL=finish.css.map */
