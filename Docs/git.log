@@ -1,0 +1,977 @@
+commit 9fd1b7fd08c526b86f8bd1123b0d6ed2147faf0f
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-17 21:09:02
+
+    20220617--shiyan
+    1. 新增退貨超連結
+
+commit eed26a622c0c325f43d1a867b428a276101e0b42
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-17 19:38:17
+
+    20220617--shiyan
+    1. 修改icon連結
+
+commit 9001ee5ff0e0050ab0cce2ca0abff1ea093cdf0f
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-17 19:27:38
+
+    Delete _config.yml
+
+commit 1f63702ae977138dcc67d9d21b4066498a32f683
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-17 19:24:45
+
+    Set theme jekyll-theme-slate
+
+commit b6edfeea911c7500777cf3ad18810e18dfadcb71
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-17 19:21:50
+
+    20220617--shiyan
+    1. js css 路徑修正，因將檔案拉出
+
+commit 6013536a5d262796120b7d605517f86acbda626e
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-17 19:19:45
+
+    20220617--shiyan
+    1. 改變位置(從templates拉出)
+
+commit 67fb55743410eda181b1224f0ed142e2166ab837
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-17 19:16:42
+
+    Create README.md
+
+commit 0e2bda6150cb9d4dbe2d06a72f1bc73f4b08d12e
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-17 19:16:11
+
+    Set theme jekyll-theme-cayman
+
+commit 4970674e0fd93b0cc71a872536ab420885254d43
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-17 15:35:21
+
+    加入about連結
+    
+    加入about連結
+
+commit 6153243464137c15cd594ba2e066870c0a207a5d
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-15 19:16:11
+
+    about更新
+    
+    about更新
+
+commit 0e7d826e2b84cd59ac669cbf5fbba32851db74ce
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-14 14:08:09
+
+    about心得更新
+    
+    about心得更新
+
+commit eb766b3729a375b30dc93575c6a15a5063734355
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-12 20:21:32
+
+    20220612--shiyan
+    1. 新增footer
+
+commit bab1a8a9ea3f199a1dddc1f78e64627c54457714
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-12 14:45:02
+
+    20220612--shiyan
+
+commit cbcf3d34f4fee9878850a1c4ca74f15eced39d93
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-11 10:06:15
+
+    20220611-shiyan
+    1. 修正購物車bug
+
+commit b3b6ca418eac296599afdbf5af7603581db684cb
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-11 09:58:07
+
+    20220611--shiyan
+
+commit a5325b8b095d5cb25162a3a6e995b5b1eaf1a0bc
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-11 09:48:49
+
+    20220611--shiyan
+
+commit 9379644defad6b4a0a63f4fdcd946a247b504907
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-11 09:13:36
+
+    20220611-shiyan
+    1. 更新templates
+
+commit b8544596b85da081affc633991fc630f512ecc84
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-11 01:10:07
+
+    20220611-shiyan
+
+commit ffbc3fc99c8591214fd6cacbf43761ba4d3e7b3a
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-11 01:07:45
+
+    20220611-shiyan
+
+commit 9b04d98904f4ffc75d116980969b9e88cd90751e
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-11 00:25:18
+
+    20220611-shiyan
+
+commit 9c0ca30c208aa469acd8bdaff6b99b7337eedc9b
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-11 00:23:30
+
+    20220611-shiyan
+    1. 留言板新增手機介面
+
+commit bc72665991a16aeca49cbba500717b2b7ecaae8a
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-11 00:17:29
+
+    20220611-shiyan
+    1. 新增評論版
+
+commit 6bc0e73ca6d12e57711722e5ccd8b3a7a5c70dd9
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-10 21:49:05
+
+    20220610-shiyan
+    1. 結帳完成頁面修改完成
+
+commit fe3adcca3d113ed4aad5a5b7abe4d133c216934e
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-10 21:28:22
+
+    20220610-shiyan
+
+commit 8bcca6a8b9a596f5113a19d8cb5e2c0a58879d8c
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-10 21:27:20
+
+    20220610-shiyan
+
+commit 32fe789a5d89bb28b7398ecccd0971fafac5d0ca
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-10 18:44:34
+
+    結帳完成頁面
+    
+    結帳完成頁面
+
+commit 80e773fcddcce6b7c8fe55e6d471d55101a49cc4
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-10 16:12:27
+
+    20220610-shiyan
+
+commit b538ef3e6febeb8c96e7ff73d75426daeeed00f8
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-10 16:10:37
+
+    20220610-shiyan
+
+commit 82ff9bed59d6926f7a81ac839f3be088ed915afd
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-09 12:58:28
+
+    20220609-shiyan
+    1. 修正js
+
+commit 0324bac7e59d7869d2575e764d262901aa472beb
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-09 10:35:27
+
+    20220609-shiyan
+
+commit fd60c94acbca4f32d0be4a091ef61626814e8db2
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-08 20:03:15
+
+    更新結帳完成頁面
+    
+    更新結帳完成頁面
+
+commit d2ab21941cba0af396d473dd31167d553df82ac1
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-08 15:18:03
+
+    20220608-shiyan
+    1. meminfo
+
+commit c61bf7dded4ab4cf89903691313320bb16d25b8b
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-07 16:45:36
+
+    20220607-shiyan
+
+commit fdf5e3d4cefbaf7f330163b8bbe633248eb5a34c
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-07 15:25:28
+
+    20220607-shiyan
+
+commit fff0366c0386b87dfb508d20e75d042052ed450a
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-06 15:58:21
+
+    更改電腦版圖片大小
+    
+    更改電腦版圖片大小
+
+commit 0ae0712b60146d3e0c0185d268589aaae5fb5a84
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-06 15:46:48
+
+    關於我們介面 改版
+    
+    關於我們介面 改版
+
+commit 7713d378ce6041e5ee53863404f673ce0f179df9
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-06 14:30:45
+
+    結帳完成頁面改版
+    
+    結帳完成頁面改版
+
+commit 24aeb25ff9512b8fb58da6c885a556923e16ca35
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-06 12:45:39
+
+    調整結帳完成畫面
+    
+    調整結帳完成畫面
+
+commit ac6f406195a572d890163ddd64ab1ae562d3a10f
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-06 12:06:39
+
+    20220606-shiyan
+    1. 會員中心完成
+
+commit 2cb4cfb635f58e5d3177f3c3907fcd765fd696f4
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-06 11:11:40
+
+    結帳完成頁面調整
+    
+    結帳完成頁面調整
+
+commit b218c73378cc386e39b563683722e7b6ed016949
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-05 20:21:11
+
+    修正圖片角角
+    
+    修正圖片角角
+
+commit 0fcf9cd9a4972ea61b8574bdf3fe5f9a1da93ec6
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-05 20:01:09
+
+    關於我們頁面
+    
+    關於我們的頁面 目前只有電腦版的 之後做RWD
+
+commit 439350fdf5ac731c82c5fc9859fe67b28eb16ca8
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-05 16:01:21
+
+    20220605-shiyan
+    1. 刪除多餘檔案
+
+commit 53027e9a2a11a7b6f8d2a7f31830b61dd68945c5
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-05 15:51:06
+
+    20220605-shiyan
+    1. 會員中心
+
+commit c7b6c0e94e69843f058e37f33532f9e77f45afb1
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-05 14:29:36
+
+    後台手機板介面
+    
+    後台手機板介面
+
+commit c4353efcc41f5fa8278da9f9d7e043e256871f13
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-05 13:39:58
+
+    後臺介面 表格字體置中
+    
+    後臺介面 表格字體置中
+
+commit a11d78f080cec5a0b09ff7843e31e436aa1e6b95
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-05 12:25:31
+
+    新增商品 後台RWD
+    
+    新增商品 後台RWD
+
+commit 54ce9360362bf6f762e38c51ced198ec02ca346c
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 23:23:28
+
+    20220604-shiyan
+
+commit 7ad81b1ddaf4955458bf815222c56cb91f6b82b0
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 23:14:47
+
+    20220604-shiyan
+
+commit 497165b7129bd4c3bd52c2b86c23cb9bb1c8ef6d
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-04 22:22:22
+
+    更新會員中心 class name 以及按鈕
+    
+    更新會員中心 class name 以及按鈕
+
+commit c6b8f3ee462795f87d431b2e2b5d39732117275e
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 20:53:05
+
+    20220604-shiyan
+    1. 新增篩選結果頁面
+
+commit 0b030729ae7e8603c8e19dd243ed582141195650
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 20:38:21
+
+    20220604-shiyan
+    1. 購物車、結帳頁面 新增手機版介面
+
+commit 732bdecc2fea54c10b5c0ce56c52cc2bfc51b04f
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-04 20:09:47
+
+    結帳完成頁面手機版
+    
+    結帳完成頁面手機版
+
+commit 11480de6d33dda04d6764454252a33e51b369809
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 19:30:59
+
+    20220604-shiyan
+    1. 產品頁面手機版
+
+commit e37abdb9887d241f5ce19ee05bef41ecbb73e869
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-04 17:36:26
+
+    會員中心
+    
+    會員中心
+
+commit 07abc9714e2b0e6ab861cce1a3a617b5ddb80c90
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 17:32:32
+
+    20220604-shiyan
+    1. 首頁更新手機版介面
+
+commit 448603e91b2ad4fb2743b3e8dc7f6a665bed6a28
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 17:28:31
+
+    20220604-shiyan
+    1. 首頁手機版介面
+
+commit 8998f5be90f6a0ca17bd03158c9d7db4444d138e
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 16:28:14
+
+    20220604-shiyan
+    1. 修改首頁產品列表
+    margin
+
+commit 8627a739d7f14756dfd766dc84abe47dd532ca1d
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 16:22:35
+
+    20220604-shiyan
+    1. 首頁電腦介面更新
+
+commit 79e641df8c0a767cb6b60bc126dd733a2520fd93
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 12:56:36
+
+    20220604-shiyan
+    1. 修改購物車數量bug
+
+commit 360ca33cddf31dc17e9ead23533ee0312c232359
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 01:05:01
+
+    20220604-shiyan
+    1. 修改商品評價內容與上方距離
+
+commit 8c8f68eab8ae02c81346ee586dd2565bcf9c6c3a
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 01:01:11
+
+    20220604-shiyan
+    1. 修改產品頁面商品詳情內容行高
+
+commit 42c63c113a97fd813167aed8ed94d16afe6d53c4
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-04 00:30:01
+
+    20220604-shiyan
+    1. 產品頁新增框框
+
+commit c42c1b69289309df1f8a391dcc0ba2b30cc4e5c5
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-03 22:29:41
+
+    20220603-shiyan
+    1. 新增照片隨mouse event 做變化的功能
+
+commit b31795067f8836a96c3a06723f245ccfbb31dc19
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-03 22:15:09
+
+    20220603-shiyan
+    1. 新增產品頁面js
+
+commit bdbf3973490f29dad1b1611882becbe75e2a6291
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-03 21:31:44
+
+    20220603-shiyan
+    1. 大致完成電腦介面的商品頁面
+
+commit d1fe3e385d09d2f607f2c7b7c4817996a657be5b
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-03 10:53:20
+
+    product css刪除
+    
+    product css刪除
+
+commit 9bf60c0724725bb646915513fc7485eb99aca908
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-03 00:17:39
+
+    20220603-shiyan
+    1. 正在改商品頁面
+
+commit 279039cd1f1b456c383fd7363a87db66f5831566
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-06-02 11:01:30
+
+    20220602-shiyan
+    1. 修改numbers寬度
+
+commit e2a308ca93ba87f12d468103b240d8f743790ac5
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-06-02 00:38:53
+
+    產品頁面 星星
+    
+    產品頁面 星星
+
+commit a1fc40640f7385d139a69ebf1b9176dbec5137a4
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-31 22:11:36
+
+    20220531-shiyan
+    1. 修改js
+
+commit 299e824853c8e41b7b18283ee0288b767a296d5b
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-31 22:01:40
+
+    結帳完成頁面
+    
+    結帳完成頁面
+
+commit bb466b6491cc3e94ab30d9c87a0619ccee1951a3
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-31 21:37:02
+
+    20220531-shiyan
+    1. car.js新增blockUI
+
+commit 235ec5b2b2fc7775e25c71935ff33e244bd82225
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-31 19:49:48
+
+    20220531-shiyan
+    1. 修改產品頁面textarea
+
+commit e65c165b0e46fb8f16a4c064f47dc867858e54e2
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-31 18:47:39
+
+    20220531-shiyan
+    1. 正在寫新增產品
+
+commit dcefdfd77c98da5c37f1ff1217e47ae0ce9fc021
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-31 18:05:02
+
+    x515商品改版
+    
+    x515商品改版
+
+commit f0d0758c1ecb8df946c9e95986de34b1c8f2c728
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-31 15:32:08
+
+    首頁更改
+    
+    首頁更改
+
+commit 7e68812b2839dd14d978066e44f08b53e811d80d
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-31 14:31:28
+
+    ASUS X515頁面修正
+    
+    ASUS X515頁面修正
+
+commit 3fd25866face65cadc44b408a11963f02c9a96be
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-31 13:10:12
+
+    20220531-shiyan
+    1. 新增「新增產品」頁面
+
+commit 58f4691adb81ac3a45e590db21d8411fe6745f08
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-31 12:54:02
+
+    20220531-shiyan
+    1. index.css調整
+
+commit efd68ea727b67290871773e68f78d21850c082d7
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-31 12:30:49
+
+    更新ASUS CSS
+    
+    更新ASUS CSS
+
+commit c68eb8b1641e4fdb1ff46ce5d5e3057acf0a34d1
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-31 12:26:41
+
+    20220531-shiyan
+    1. 新增後台，目前剩下新增商品尚未完成
+
+commit 1018e69a303d6d43d8cbb5ca6842124f28cfed43
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-31 11:42:29
+
+    ASUS X515 商品頁面
+    
+    ASUS X515 商品頁面
+
+commit 211021cd9f7c265f214a46b4ef285fbfcc245320
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-30 21:32:45
+
+    首頁改版
+    
+    首頁改版
+
+commit 8050f438ebaef938189d44768623fb7803f1674b
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-30 20:55:58
+
+    首頁總攬
+    
+    首頁總攬
+
+commit 12600b5db52b190e873f7ea6dc31fb13adee8bdf
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-30 18:36:23
+
+    20220530-shiyan
+
+commit 8e368751b5ed756a862d573a732e54be6b1c2518
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-30 16:40:00
+
+    20220530-shiyan
+    1. 回覆檔案
+
+commit 397243a5e255b63d4064699fe734b465d6dddd88
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-30 15:40:14
+
+    首頁動態廣告 熱銷排行榜 RWD完成
+    
+    首頁動態廣告 熱銷排行榜 RWD完成
+
+commit 1784c5109b4666307ac51762e7c7c6f880438ccd
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-30 14:37:55
+
+    20220530-shiyan
+    1. 準備寫後台
+
+commit c41e8597878342a7043500b941ea875710bfc483
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-30 13:10:14
+
+    20220530-shiyan
+    1.新增付款介面
+
+commit 0bbb19514ac5265418450be7618ad81692fcd9cd
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-29 16:21:53
+
+    20220529-shiyan
+    1. 修改購物車列表border
+
+commit 2bf80f298ae978315fd35bcb2f56ebf23768164a
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-29 16:08:04
+
+    20220529-shiyan
+
+commit 4dd59b36f7fe5e410cb36e3078dda3ee9e5d8838
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-29 16:05:30
+
+    20220529-shiyan
+    1. 購物車新增刪除及數量調整金額變動功能、全選功能
+
+commit 05a05937860108dfc9c9db5ff84581a2169a16b8
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-29 14:14:55
+
+    20220529-shiyan
+    1. 完成購物車電腦版介面
+
+commit d284dc2bb44858c7332c33c9887cf1a9515927f7
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-28 22:03:52
+
+    20220528-shiyan
+    1. git test
+
+commit 7eccd97b0b9a4d1ebd243a93b587cdc5013343f9
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-28 21:55:52
+
+    20220528-shiyan
+    1. 新增購物車html
+
+commit 8ac49b95060d59ffc8262552756ee19a34dc34ee
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-28 17:44:49
+
+    20220528-shiyan
+    1. icon修改
+
+commit abcf4749df17d71646676aa93487bad342295c48
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-28 15:38:52
+
+    20220528-shiyan
+    1. 篩選的價格輸入限制只能輸入數字
+
+commit dfd2e0d4c19ec0badf21e37be17aff3f74cdb8c1
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-28 15:25:59
+
+    20220528-shiyan
+    1. 新增購物車HTML
+
+commit a8395c98399ad7c04b951c7e429cbb26afb555f6
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-28 15:20:56
+
+    20220528-shiyan
+    1. 修改html title
+    2. index 修改
+
+commit c844269d2905877a84b70b8ef3c112b5dce2480d
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-28 13:54:51
+
+    20220528-shiyan
+    1. index 產品列表、篩選
+
+commit 4fc81f9bb297ec218d1e947d47e45bf45c4bd756
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-28 11:57:36
+
+    20220528-shiyan
+    1. add Issue
+
+commit 8f171c7fe8ad412c354e343494246e836c91aa75
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-28 11:45:54
+
+    20220528-shiyan
+    1. 更改產品列表版面配置(新增篩選)
+
+commit 1ac903b6257f8a2d22aa39abf7e7f15fef9ec5a2
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 23:31:41
+
+    20220527-shiyan
+
+commit f47c6b04831893b70c9b7382ca9a5ef98cbc2a65
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 23:29:16
+
+    20220527-shiyan
+    1. 產品列表手機介面調整，尚未全部完成
+
+commit b1296e0b6bed712f96d8fede84f21f2bb972fc8a
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 23:18:49
+
+    20220527-shiyan
+    1. 新增後台登入畫面
+
+commit 983afa7ab9d870d321c4a7974acf38e78cfbc074
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 22:44:54
+
+    20220527-shiyan
+    1. change body  background-color
+
+commit b6817bdc81a25576d395f27fc6a4b9fb1a28217e
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 22:42:17
+
+    20220527-shiyan
+    1. 背景色修改blue -> gray
+
+commit 68460733267b7493f23495eb4135db02d2d94f4c
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 22:31:21
+
+    20220527-shiyan
+    1. login.js 修改
+
+commit 22e39e0d716d5fdcd2fbbf73361baaa8f57b9543
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 22:25:04
+
+    20220527-shiyan
+    1. 完成登入、註冊介面，待確認
+
+commit f88c0d14ac862120f62a05931fcbf60376f2064f
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 21:25:58
+
+    20220527-shiyan
+    1. 會員註冊密碼判斷新增英數混合
+
+commit 21ec06e778dca9bcd4609048fe56eed383267802
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 16:24:55
+
+    20220527-shiyan
+    1. 修改登入、註冊ajax路徑
+
+commit f5db5643c5cb7d4f7fc3ff02d76b2289ba5d9ed2
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 16:12:34
+
+    20220527-shiyan
+    1. 修改產品列表scss
+
+commit 0ad4bc797e204584af7a12c48ae5f5654e7336c9
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 16:08:45
+
+    20220527-shiyan
+    1. 修改產品列表樣式(新增RWD)
+
+commit aedb2902196541cdb1aa5057ceaf6996d5f6b193
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 13:32:09
+
+    20220527-shiyan
+    1. 修改common 的 content_format margin數值
+
+commit aea2abec103eb0c0195bb732b1bcd1034698e078
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 13:24:42
+
+    20220527-shiyan
+    1. 將header main footer 這些常用的結合成common.scss
+
+commit 2749b4d8916eaa181070861aecfee2d14c0fd590
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 12:37:20
+
+    20220527-shiyan
+    1. slick新增自動播放
+
+commit 507d2d8a6da0c3f1893cad85d35ba6405e1ab900
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-27 11:35:44
+
+    20220527-shiyan
+    1. 加入slick
+
+commit 846eb178715d06bbe232fad452c1b3959ae44552
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-26 22:34:31
+
+    20220526-shiyan
+    1. login.js 大致完成
+
+commit a7e0fc1c027cf34fe2a15d4b4b61ef36bb5ec9cc
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-26 21:47:52
+
+    20220526-shiyan
+    1. lib upload
+
+commit 43677d1457213baf8e616c67a2234391bb4cb888
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-26 21:27:30
+
+    20220526-shiyan
+    1. 正在寫註冊js
+
+commit cef049c8967304318263313dcc722700c106be5d
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-26 01:33:09
+
+    更新字體
+    
+    更新字體
+
+commit 20a4d792eb8d8f9a0c3056c97b6cc9f9e239e247
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-25 22:06:46
+
+    20220525-shiyan
+    1. 正在寫登入畫面
+
+commit 6b7f4e7362700ab5bebae8e658f8b1fad8c06314
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-25 20:25:11
+
+    改購買數量
+    
+    變成input不是select
+
+commit 4c5b208571adbd76c1240d0b1e7d8588b1cbcef2
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-25 20:22:55
+
+    20220525-shiyan
+    1. 加上icon
+
+commit aafdc273acdf2b379c31e956d28b5fe725ff531f
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-23 20:27:26
+
+    ASUSX515的商品頁面
+    
+    ASUSX515的商品頁面
+
+commit 835699c1b95246882050ae7a59dd87076ad0fa27
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-21 16:25:35
+
+    商品排版第二次
+    
+    這次的商品大概都調整好了 邊框大小一致
+
+commit 70795ff3d9d780e997201d510793b9a32221529d
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-20 12:25:01
+
+    修改圖片變成原來的樣子
+    
+    我之後會去改CSS所以現在圖片都是原檔
+
+commit 1778df8f1a5e0032434f42c2be4dae11d4ea0442
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-17 17:58:57
+
+    商品頁面總攬
+    
+    我目前是大概排版而已 大小邊框 微微不一 之後再調整
+
+commit ae605aaa2f4cbeb86e63e57afc776916ba066e84
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-16 22:00:30
+
+    更改聯絡我們圖示
+    
+    更改聯絡我們圖示
+
+commit f4645d184a3677bc726da829503ade3f0ef04478
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-16 20:51:09
+
+    加入每個商品第二張圖片
+    
+    加入每個商品第二張圖片
+
+commit d37459e72acd600ea408d953ef962c0950b72afa
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-16 20:20:10
+
+    20220516-shiyan
+    1. 新增loading畫面
+    2. 修改main.scss
+
+commit c6baea5993347afae7c4006852c7d905c0c0d46e
+Author: 10944207 <joseph11030@gmail.com>
+Date:   2022-05-16 19:09:20
+
+    加入圖片
+    
+    加入icon 跟pro的圖片
+
+commit e65c750f91be71344af7425a9e35da5d43bd46de
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-16 00:08:40
+
+    20220516-shiyan
+    1. 新增footer框架
+
+commit cf7679ef304978151002b2c50a772de36a283c23
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-15 23:22:04
+
+    20220515-shiyan
+    1. 製作header
+
+commit b86d8704277ebda77f07d6166de7318e46a6a269
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-05-11 20:40:54
+
+    20220511-shiyan
+    
+    1. 設立分類資料夾
+
+commit c39aad5c32a89ef384b48571c80bb419bf26ee88
+Author: SHI-Yan LEE <69109740+Yozora525@users.noreply.github.com>
+Date:   2022-04-30 23:13:08
+
+    Initial commit
